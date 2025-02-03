@@ -18,11 +18,14 @@ nav ul li a {
 
 }
 
-p {
-    color: aliceblue;
-}
+
 body{
     margin: 0;
+}
+
+a:hover{
+    background-color: rgb(149, 205, 205);
+    color: black;
 }
 
 
