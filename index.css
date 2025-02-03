@@ -23,9 +23,20 @@ body{
     margin: 0;
 }
 
-a:hover{
-    background-color: rgb(149, 205, 205);
-    color: black;
-}
 
+.menu-deroulant {
+    display: none;
+    position: absolute;
+
+}
+nav ul li:hover .menu-deroulant {
+    display: block;
+    background-color: #0f6b93;
+
+}
+.menu-deroulant li a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
 
